@@ -19,6 +19,20 @@ Repositorio con las notebooks y funciones empleadas para el desafío propuesto.
     * _outliers-visualizacion.ipynb_
     * _remocion-outliers.ipynb_
 
+### Estructura de Directorios
+```
+./
+│
+├── datasets/
+│   │
+│   └── properatti.csv
+│   
+├── analisis-inicial.ipynb
+├── exchange-rate.ipynb
+├── outliers-visualizacion.ipynb
+└── remocion-outliers.ipynb
+```
+
 
 
 ## Detalle de Notebooks

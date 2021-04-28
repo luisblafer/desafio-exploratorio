@@ -163,3 +163,5 @@ dmypy.json
 ### Especificos ###
 # Datasets Folders
 datasets/
+funciones/
+images/

@@ -25,6 +25,15 @@ def missing_zero_values_table(df):
     return mz_table
 
 def remover_ppm2_outliers(df):
+    '''
+    Returns a dataframe without outliers up to 2 deviations away from the std
+
+            Parameters:
+                    df (DataFrame): Input DataFrame with potential outliers
+
+            Returns:
+                    df_out (pd.DataFrame): DataFrame without the outliers
+    '''
     df_out = pd.DataFrame()
     for key, subdf in df.groupby("place_name"):
         m = np.mean(subdf.price_per_m2_covered_clean)

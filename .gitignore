@@ -164,5 +164,4 @@ dmypy.json
 # Datasets Folders
 datasets/*.csv
 datasets/.ipynb_checkpoints
-funciones/
 images/

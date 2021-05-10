@@ -24,9 +24,12 @@ Repositorio con las notebooks y funciones empleadas para el desafío propuesto.
 ./
 │
 ├── datasets/
-│   │
 │   └── properatti.csv
-│   
+│
+├── funciones/
+│   ├── __init__.py
+│   └── funciones.py
+│
 ├── analisis-inicial.ipynb
 ├── exchange-rate.ipynb
 ├── outliers-visualizacion.ipynb
